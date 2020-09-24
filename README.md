@@ -65,8 +65,8 @@ Storybook.js for Vue example
 	 storiesOf('Button', module)
 	 .add('Button as a template', () => (
 		 '<my-button>button as template</my-button>'
-	 )
-	 add('Button as a component', () =>({
+	 ))
+	 .add('Button as a component', () =>({
 		 components: {'the-button': Button},
 		 template: '<the-button>button as component</the-button>'
 	 }));
